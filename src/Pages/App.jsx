@@ -1,6 +1,6 @@
-import ExpenseList from './Components/ExpenseList';
+import ExpenseList from '../Components/ExpenseList';
 import { useState } from 'react';
-import ExpenseForm from './Components/ExpenseForm';
+import ExpenseForm from '../Components/ExpenseForm';
 
 function App() {
   const [expenses, setExpenses] = useState([]);
